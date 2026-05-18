@@ -303,10 +303,18 @@
     .service-card--featured {
       grid-column: 1 / -1;
       display: flex;
+      flex-wrap: wrap;
       align-items: center;
-      gap: 2rem;
+      gap: 1rem;
       background: linear-gradient(135deg, var(--sage-pale), var(--sage-light));
       border: 2px solid var(--sage);
+    }
+
+    .service-card--featured h3 { flex: 1; }
+
+    .service-card--featured p {
+      flex-basis: 100%;
+      margin-top: 0;
     }
 
     .service-card--featured .service-icon {
@@ -773,10 +781,8 @@
 
         <div class="service-card service-card--featured fade-in">
           <div class="service-icon">💻</div>
-          <div>
-            <h3>Sesiones Online</h3>
-            <p>Atención psicológica a distancia. Misma calidad terapéutica desde la comodidad de tu hogar, para todo el país.</p>
-          </div>
+          <h3>Sesiones Online</h3>
+          <p>Atención psicológica a distancia. Misma calidad terapéutica desde la comodidad de tu hogar, para todo el país.</p>
         </div>
 
       </div>
