@@ -311,10 +311,10 @@
 
     .service-card--featured .service-icon {
       flex-shrink: 0;
-      width: 64px;
-      height: 64px;
-      font-size: 1.8rem;
-      background: var(--white);
+      width: 52px;
+      height: 52px;
+      font-size: 1.5rem;
+      background: var(--sage-pale);
     }
 
     .service-card--featured h3 { font-size: 1.3rem; }
@@ -335,6 +335,10 @@
       border: 1px solid transparent;
       position: relative;
       overflow: hidden;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 1rem;
     }
 
     .service-card::before {
@@ -364,7 +368,8 @@
       align-items: center;
       justify-content: center;
       font-size: 1.5rem;
-      margin-bottom: 1.2rem;
+      flex-shrink: 0;
+      margin-bottom: 0;
     }
 
     .service-card h3 {
