@@ -18,6 +18,15 @@ Página web profesional de la Lic. María Merello Alzueta, psicóloga clínica.
 - Matrícula: MN 82529
 - Email: mariamerello1@gmail.com
 
+## Cambios realizados en sesión 2 (Mayo 2026)
+- Ajustes de diseño mobile: foto más pequeña, títulos centrados, layout de tarjetas con icono y título en la misma línea
+- Tarjeta Sesiones Online tiene descripción debajo del título
+- Se eliminaron subtítulos: "TRAYECTORIA", "EMPEZÁ HOY"
+- Botones de WhatsApp dicen solo "WhatsApp"
+- Sección servicios se llama "¿Cómo puedo ayudarte?"
+- Navbar: "Servicios" cambió a "Mi enfoque"
+- Formación: "Especialización en Terapia de Pareja y Familia" cambió a "Formación en Psicoterapias de Familia y Pareja"
+
 ## Pendientes futuros
 - Agregar más fotos profesionales
 - Considerar dominio propio (ej: mariamerello.com.ar)
